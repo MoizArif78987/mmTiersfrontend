@@ -1,0 +1,24 @@
+nav{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid rgb(0,0,0,0.3);
+    background-color: #0f1724;
+}
+nav ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    background-color: #0f1724;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}

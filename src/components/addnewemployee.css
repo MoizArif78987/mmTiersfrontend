@@ -1,0 +1,54 @@
+.employeeform input{
+    height: 50px;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    margin-top: 1%;
+    padding-left: 1%;
+}
+.employeeform input::placeholder{
+    color:white
+}
+
+.employeeform button {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    height: 50px;
+    width: 50%;
+    margin-top: 1%;
+    border-radius: 30px;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    z-index: 1;
+    overflow: hidden;
+    font-size: 30px;
+}
+
+.employeeform button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-color: green;
+    background-color:green;
+    color: white;
+    border-radius: 30px;
+    transform: translateX(-100%);
+    transition: all .3s linear;
+}
+
+.employeeform button:hover:before {
+    transform: translateX(0%);
+    z-index: -1;
+}
+.employeeform button:hover{
+    color: white;
+    border-color: green;
+    box-shadow: -2px 1px 5px white;
+}

@@ -1,0 +1,32 @@
+.review{
+    height: auto;
+    width: 99vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-bottom: 30px;
+}
+.reviewcard{
+    height: 300px;
+    width: 90%;
+    border: 1px solid white ;
+    border-radius: 15px;
+    margin-top: 3%;
+    margin-left: 2%;
+    overflow-x: auto;
+    overflow-y: scroll;
+    padding: 15px;
+}
+.reviewcard h3{
+    background: none;
+    color: white;
+}
+.reviewcard h5{
+    background: none;
+    color: grey;
+}
+.reviewcard p{
+    background: none;
+    color: white;
+}

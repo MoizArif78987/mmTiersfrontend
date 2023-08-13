@@ -1,0 +1,36 @@
+.messages-container{
+    height:auto;
+    width:90%;
+    margin-left: 5%;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 5%;
+    color: white;
+}
+.messages-container .messagebox{
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid rgb(67, 67, 80);
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.messages-container .messagebox form{
+    background: none;
+}
+
+.messages-container .messagebox input{
+    height: 50px;
+    width: 70%;
+    border: 1px solid white;
+    background: none;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.messages-container .messagebox input::placeholder{
+color: white;
+}

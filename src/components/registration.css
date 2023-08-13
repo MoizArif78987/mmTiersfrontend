@@ -1,0 +1,89 @@
+.reg-container{
+    height: auto;
+    width: 90%;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+}
+.reg-container input{
+    margin-top: 20px;
+    height: 50px;
+    width: 80%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.reg-container input::placeholder{
+    color: white;
+}
+
+.reg-container input[type='date']{
+    margin-left: 10%;
+}
+.reg-container input[type='time']{
+    margin-left: 5%;
+}
+
+.reg-container input[type='date'],
+.reg-container input[type='time']{
+    width: 35%;
+}
+
+.reg-container input[type='date']::-webkit-calendar-picker-indicator{
+    background-color: yellow;
+    border-radius: 5px;
+}
+.reg-container input[type='time']::-webkit-calendar-picker-indicator{
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+
+.reg-container button {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    height: 50px;
+    width: 50%;
+    margin-top: 2%;
+    border-radius: 30px;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    z-index: 1;
+    overflow: hidden;
+    font-size: 30px;
+}
+
+.reg-container button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-color: green;
+    background-color:green;
+    color: white;
+    border-radius: 30px;
+    transform: translateX(-100%);
+    transition: all .3s linear;
+}
+
+.reg-container button:hover:before {
+    transform: translateX(0%);
+    z-index: -1;
+}
+.reg-container button:hover{
+    color: white;
+    border-color: green;
+    box-shadow: -2px 1px 5px white;
+}

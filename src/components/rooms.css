@@ -1,0 +1,47 @@
+.cards{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #0f1724;
+    padding-bottom: 2.5%;
+}
+
+.cards .standard,
+.cards .Gold,
+.cards .Platinum{
+    margin-top: 5vh;
+    margin-left: 5%;
+    height: 80vh;
+    width: 90%;
+    border: 1px solid rgb(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+.cards .standard{
+    border: 1px solid #cd7f32;
+}
+.cards .Gold{
+    border: 1px solid #FFD700;
+}
+.cards .Platinum{
+    border: 1px solid #E5E4E2;
+}
+
+.cards .standard:hover{
+    box-shadow: -5px 5px 10px #cd7f32;
+}
+.cards .Gold:hover{
+    box-shadow: -5px 5px 10px #FFD700;    
+}
+.cards .Platinum:hover{
+    box-shadow: -5px 5px 10px #E5E4E2;
+}
+
+.cards .standard img,
+.cards .Gold img,
+.cards .Platinum img{
+    height: 200px;
+    width: 94%;
+    padding: 3%;
+}

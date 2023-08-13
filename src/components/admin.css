@@ -1,0 +1,31 @@
+.admin_row_1{
+    margin-top: 1%;
+    display:flex;
+    height: 30%;
+    width:100%
+}
+.admin_row_1 .totalrooms{
+    height: 100%;
+    width: 29%;
+    margin-left: 3%;
+    border: 1px solid rgb(57, 57, 57);
+    background-color: rgb(57, 57, 57);
+    border-radius: 20px;
+}
+.admin_row_1 .totalrooms h3{
+    background: none;
+    color: white;
+}
+
+.revenue{
+    height: 30%;
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgb(42, 39, 48);
+    border-radius: 20px;
+    color: white;
+}
+.revenue h2{
+    background: none;
+    padding: 5%;
+}
